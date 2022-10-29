@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 
-export default function Profiles() {
+export default function Counseling() {
     return (
         <div className={styles.container}>
         <Head>
@@ -13,7 +13,7 @@ export default function Profiles() {
 
         <main className={styles.main}>
             <h1 className={styles.title}>
-            Profiles page
+            Counseling page
             </h1>
         </main>
 

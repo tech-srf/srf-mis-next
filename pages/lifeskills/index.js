@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 
-export default function Attendance() {
+export default function Lifeskills() {
     return (
         <div className={styles.container}>
         <Head>
@@ -13,7 +13,7 @@ export default function Attendance() {
 
         <main className={styles.main}>
             <h1 className={styles.title}>
-            Attendance page
+            Life Skills page
             </h1>
         </main>
 
