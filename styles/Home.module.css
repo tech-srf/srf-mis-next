@@ -12,6 +12,26 @@
   align-items: center;
 }
 
+.background {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url('../public/showcase.jpg'); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  width: 100%;
+  top: 0;
+	left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: absolute;
+}
+
+.text {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
 .footer {
   display: flex;
   flex: 1;
